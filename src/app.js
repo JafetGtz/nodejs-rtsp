@@ -8,6 +8,6 @@
     //A channel of camera stream
     Stream = require('node-rtsp-stream');
     stream = new Stream({
-        streamUrl: 'rtsp://' + username + ':' + password + '@' + ip_address +':554/cam/realmonitor?channel=1&subtype=0&unicast=true&proto=Onvif',
+        streamUrl: 'rtsp://192.168.0.5:554/live.sdp',
         wsPort: 9999    
     });
